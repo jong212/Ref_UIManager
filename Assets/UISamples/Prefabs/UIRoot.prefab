@@ -513,6 +513,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5249115946538935138}
+  - component: {fileID: 3974914189215784357}
   m_Layer: 0
   m_Name: SimplePopup
   m_TagString: Untagged
@@ -542,6 +543,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3974914189215784357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2215160270919739412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ecd1754d79e90418f2d81eb2294f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text_Msg: {fileID: 2981665062452398883}
 --- !u!1 &2394625898805245042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1082,7 @@ GameObject:
   - component: {fileID: 860508052590167595}
   - component: {fileID: 5808683591721650359}
   - component: {fileID: 2164802345646211046}
+  - component: {fileID: 8809630682286829934}
   m_Layer: 0
   m_Name: UIRoot
   m_TagString: Untagged
@@ -1161,6 +1176,19 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &8809630682286829934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4290482773801034447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2b3f09fb8bc09448d47fc16d8ba359, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _simplePopup: {fileID: 3974914189215784357}
 --- !u!1 &4305694658808049835
 GameObject:
   m_ObjectHideFlags: 0
